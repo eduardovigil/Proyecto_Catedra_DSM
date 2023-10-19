@@ -28,5 +28,4 @@ Usted es libre de: Compartir — copiar y redistribuir el material en cualquier 
 ## Links de información importante.
 
 * Trello: https://trello.com/invite/b/PbOxa6fZ/ATTI8bcf63de4f37a63b31dcd7e8c70bedd09556B1EA/proyecto-catedra-dsm
-* Mockups: https://www.figma.com/file/pZJnUWIPgLOb67UOUHjI8U/Proyecto-Catedra?type=design&node-id=1%3A32&mode=design&t=iIjfL6vwEE8dbQFb-1
-  
+* Mockups: https://drive.google.com/drive/folders/1bZSNz7276cq2GwQPi73bF6sj8Nj2LaZA?usp=share_link
