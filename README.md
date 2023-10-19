@@ -17,6 +17,7 @@ Pasos para la instalacion de la aplicacion:
 ## Desarrollador
 
 * **David Eduardo Rodriguez Vigil** - Programador.
+* **Hugo Fernando Guzman Flores** - Programador.
   
 ## Licencia
 
