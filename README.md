@@ -18,6 +18,7 @@ Pasos para la instalacion de la aplicacion:
 
 * **David Eduardo Rodriguez Vigil** - Programador.
 * **Hugo Fernando Guzman Flores** - Programador.
+* **Ronald David Pineda Lopez** - Diseñador.
   
 ## Licencia
 
