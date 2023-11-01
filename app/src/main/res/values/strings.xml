@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Proyecto_Catedra</string>
+    <string name="no_tienes_una_cuenta">¿No tienes una cuenta?</string>
+    <string name="registrate_aqu">Registrate Aquí</string>
+    <string name="nombre_de_usuario">Nombre de usuario</string>
+    <string name="con">Contrseña</string>
+    <string name="contra">Contraseña</string>
+    <string name="inicio_sesi_n">Inicio sesión</string>
+</resources>
