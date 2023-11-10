@@ -6,4 +6,9 @@
     <string name="con">Contrseña</string>
     <string name="contra">Contraseña</string>
     <string name="inicio_sesi_n">Inicio sesión</string>
+    <string name="bienvenido">¡¡Bienvenido!!</string>
+    <string name="logo">Logo</string>
+    <string name="pacientes">Pacientes</string>
+    <string name="empleados">Empleados</string>
+    <string name="citas">Citas</string>
 </resources>
