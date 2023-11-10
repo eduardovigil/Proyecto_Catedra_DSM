@@ -29,7 +29,7 @@ class LoginActivity : AppCompatActivity() {
             val password = etPassword.text.toString()
 
             if (login(username, password)) {
-                val intent = Intent(this@LoginActivity, MainActivity::class.java)
+                val intent = Intent(this@LoginActivity, MenuActivity::class.java)
                 startActivity(intent)
                 finish()
             } else {
@@ -37,7 +37,7 @@ class LoginActivity : AppCompatActivity() {
             }
         }
         tvRegister.setOnClickListener {
-            val intent = Intent(this@LoginActivity, MainActivity::class.java)
+            val intent = Intent(this@LoginActivity, RegisterActivity::class.java)
             startActivity(intent)
         }
     }
