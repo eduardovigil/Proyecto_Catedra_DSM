@@ -25,7 +25,9 @@
         <activity android:name=".RegisterActivity"/>
         <activity android:name=".MenuActivity" />
         <activity android:name=".PacienteActivity" />
+        <activity android:name=".EditarActivityPaciente" />
         <activity android:name=".EmpleadoActivity" />
+        <activity android:name=".EditarActivityEmpleado" />
         <activity android:name=".CitaActivity"/>
     </application>
 
