@@ -21,12 +21,12 @@ class EmpleadoActivity : AppCompatActivity() {
 
         dbHelper = DatabaseHelperEmpleado(this)
 
-        val editTextNombreE = findViewById<EditText>(R.id.editTextNombreE)
+        val editTextNombreE = findViewById<EditText>(R.id.editTextNombreC)
         val editTextDireccionE = findViewById<EditText>(R.id.editTextDireccionE)
         val editTextDuiE = findViewById<EditText>(R.id.editTextDuiE)
         val editTextCorreo = findViewById<EditText>(R.id.editTextCorreo)
 
-        val btnAgregar = findViewById<Button>(R.id.btnAgregarE)
+        val btnAgregar = findViewById<Button>(R.id.btnAgregarC)
 
         btnAgregar.setOnClickListener {
             val nombre = editTextNombreE.text.toString()
@@ -44,7 +44,7 @@ class EmpleadoActivity : AppCompatActivity() {
             editTextCorreo.text.clear()
         }
 
-        val listViewPacientes = findViewById<ListView>(R.id.listViewEmpleado)
+        val listViewPacientes = findViewById<ListView>(R.id.listViewCita)
         adapter = ArrayAdapter(this, android.R.layout.simple_list_item_1, mutableListOf())
         listViewPacientes.adapter = adapter
 

@@ -6,7 +6,7 @@
     android:layout_height="match_parent">
 
     <Button
-        android:id="@+id/btnAgregarE"
+        android:id="@+id/btnAgregarC"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/agregar"
@@ -31,75 +31,75 @@
         app:layout_constraintVertical_bias="0.078" />
 
     <EditText
-        android:id="@+id/editTextNombreE"
+        android:id="@+id/editTextNombreC"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:autofillHints=""
         android:ems="10"
+        android:hint="@string/nombre"
         android:inputType="textPersonName"
         android:minHeight="48dp"
-        android:text="@string/nombre"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.253"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.157"
-        android:autofillHints=""
         tools:ignore="LabelFor" />
 
     <EditText
         android:id="@+id/editTextCorreo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:autofillHints=""
         android:ems="10"
+        android:hint="@string/correo"
         android:inputType="textPersonName"
         android:minHeight="48dp"
-        android:text="@string/correo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.253"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.447"
-        android:autofillHints=""
         tools:ignore="LabelFor" />
 
     <EditText
         android:id="@+id/editTextDuiE"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:autofillHints=""
         android:ems="10"
+        android:hint="@string/dui"
         android:inputType="textPersonName"
         android:minHeight="48dp"
-        android:text="@string/dui"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.253"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.357"
-        android:autofillHints=""
         tools:ignore="LabelFor" />
 
     <EditText
         android:id="@+id/editTextDireccionE"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:autofillHints=""
         android:ems="10"
+        android:hint="@string/direccion"
         android:inputType="textPersonName"
         android:minHeight="48dp"
-        android:text="@string/direccion"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.253"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.255"
-        android:autofillHints=""
         tools:ignore="LabelFor" />
 
     <ListView
-        android:id="@+id/listViewEmpleado"
+        android:id="@+id/listViewCita"
         android:layout_width="409dp"
         android:layout_height="328dp"
         app:layout_constraintBottom_toBottomOf="parent"

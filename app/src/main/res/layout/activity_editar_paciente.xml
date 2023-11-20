@@ -48,7 +48,7 @@
         tools:ignore="LabelFor" />
 
     <EditText
-        android:id="@+id/editTextNombreEditar"
+        android:id="@+id/editTextNombreEditarC"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:autofillHints=""
@@ -65,7 +65,7 @@
         tools:ignore="LabelFor" />
 
     <EditText
-        android:id="@+id/editTextMascotaEditar"
+        android:id="@+id/editTextFechaEditarC"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:autofillHints=""
@@ -82,7 +82,7 @@
         tools:ignore="LabelFor" />
 
     <EditText
-        android:id="@+id/editTextDuiEditar"
+        android:id="@+id/editTextDuiEditarC"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:autofillHints=""

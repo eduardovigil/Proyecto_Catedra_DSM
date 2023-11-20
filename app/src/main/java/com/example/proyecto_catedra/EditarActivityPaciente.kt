@@ -20,10 +20,10 @@ class EditarActivityPaciente : AppCompatActivity() {
 
         dbHelper = DatabaseHelperPaciente(this)
 
-        editTextNombre = findViewById(R.id.editTextNombreEditar)
+        editTextNombre = findViewById(R.id.editTextNombreEditarC)
         editTextDireccion = findViewById(R.id.editTextDireccionEditar)
-        editTextDui = findViewById(R.id.editTextDuiEditar)
-        editTextMascota = findViewById(R.id.editTextMascotaEditar)
+        editTextDui = findViewById(R.id.editTextDuiEditarC)
+        editTextMascota = findViewById(R.id.editTextFechaEditarC)
         btnGuardarCambios = findViewById(R.id.btnGuardarCambios)
 
         val paciente = intent.getSerializableExtra("paciente") as? Paciente
