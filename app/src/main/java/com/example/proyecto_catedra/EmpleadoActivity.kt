@@ -23,8 +23,8 @@ class EmpleadoActivity : AppCompatActivity() {
 
         val editTextNombreE = findViewById<EditText>(R.id.editTextNombreC)
         val editTextDireccionE = findViewById<EditText>(R.id.editTextDireccionE)
-        val editTextDuiE = findViewById<EditText>(R.id.editTextDuiE)
-        val editTextCorreo = findViewById<EditText>(R.id.editTextCorreo)
+        val editTextDuiE = findViewById<EditText>(R.id.editTextDuiC)
+        val editTextCorreo = findViewById<EditText>(R.id.editTextFecha)
 
         val btnAgregar = findViewById<Button>(R.id.btnAgregarC)
 

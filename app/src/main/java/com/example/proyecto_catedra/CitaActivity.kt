@@ -22,8 +22,8 @@ class CitaActivity : AppCompatActivity() {
         dbHelper = DatabaseHelperCita(this)
 
         val editTextNombreC = findViewById<EditText>(R.id.editTextNombreC)
-        val editTextDuiC = findViewById<EditText>(R.id.editTextDuiE)
-        val editTextFecha = findViewById<EditText>(R.id.editTextCorreo)
+        val editTextDuiC = findViewById<EditText>(R.id.editTextDuiC)
+        val editTextFecha = findViewById<EditText>(R.id.editTextFecha)
 
         val btnAgregar = findViewById<Button>(R.id.btnAgregarC)
 

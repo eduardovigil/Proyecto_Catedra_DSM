@@ -22,9 +22,9 @@ class EditarActivityCita : AppCompatActivity() {
         dbHelper = DatabaseHelperCita(this)
 
         editTextNombre = findViewById(R.id.editTextNombreEditarC)
-        editTextDui = findViewById(R.id.editTextDuiEditarE)
+        editTextDui = findViewById(R.id.editTextDuiEditarC)
         editTextFecha = findViewById(R.id.editTextFechaEditarC)
-        btnGuardarCambios = findViewById(R.id.btnGuardarCambiosE)
+        btnGuardarCambios = findViewById(R.id.btnGuardarCambios)
 
         val cita= intent.getSerializableExtra("cita") as? Cita
 
